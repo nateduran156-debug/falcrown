@@ -6,6 +6,7 @@ process.emitWarning = (warning, ...args) => {
     return _emitWarning(warning, ...args);
 };
 
+import crypto from 'crypto';
 import { Bot } from '#classes/client';
 import { logger } from '#utils';
 
