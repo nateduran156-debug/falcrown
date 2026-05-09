@@ -1,5 +1,5 @@
 // Falcron | AeroX Development
-// Author: itsfizys  |  AeroX Development             ║
+// Author: itsfizys  |  AeroX Development           
 export const config = {
         token: process.env.DISCORD_TOKEN || '',
         clientId: process.env.DISCORD_CLIENT_ID || '',
