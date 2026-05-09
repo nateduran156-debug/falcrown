@@ -19,7 +19,7 @@ export const config = {
         },
 
         database: {
-                uri: process.env.MONGODB_URI || '',
+                uri: process.env.MONGO_URL || process.env.MONGODB_URI || '',
         },
 
         presence: {
