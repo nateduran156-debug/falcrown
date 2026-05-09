@@ -8,7 +8,7 @@ export const config = {
         ownerOnly: false,
 
         links: {
-                supportServer: 'https://discord.gg/Ez4gCJQDxB',
+                supportServer: 'https://discord.gg/AeroX',
                 invite: 'https://discord.com/oauth2/authorize?client_id=1497418632383172731',
         },
 
