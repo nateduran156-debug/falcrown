@@ -1,5 +1,5 @@
 // Falcron | AeroX Development
-// Author: itsfizys
+// Author: vociular
 export const config = {
         token: process.env.DISCORD_TOKEN || '',
         clientId: process.env.DISCORD_CLIENT_ID || '',
@@ -9,7 +9,7 @@ export const config = {
 
         links: {
                 supportServer: 'https://discord.gg/Ez4gCJQDxB',
-                invite: '',
+                invite: 'https://discord.com/oauth2/authorize?client_id=1497418632383172731',
         },
 
         cache: {
@@ -23,9 +23,9 @@ export const config = {
         },
 
         presence: {
-                status: 'idle',
+                status: 'dnd',
                 activity: {
-                        name: '-help || AeroX Development',
+                        name: 'repentw',
                         type: 'Custom',
                 },
         },
